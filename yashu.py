@@ -20,7 +20,7 @@ async def start(_, m):
         return await m.reply(TXT.format(m.from_user.first_name, na), reply_markup=SWITCH_PM)
     await m.reply_photo(START_PIC, caption=TXT.format(m.from_user.first_name, na), reply_markup=SWITCH_PM)
 
-HLP = "**Whisper Bot Help**\n\n» `@{} [USERNAME] [WHISPER]`\n\nEx : `@{} @ShutupKeshav Hello !`"
+HLP = "**Whisper Bot Help**\n\n» `@{} [USERNAME] [WHISPER]`\n\nEx : `@{} @weedsmoker_sanji Hello !`"
 
 @yashu.on_message(filters.command("help") & filters.private)
 async def help(_, m):
