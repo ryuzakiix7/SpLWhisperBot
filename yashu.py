@@ -80,7 +80,7 @@ async def cbq(_, q):
         await q.answer(str(e), show_alert=True)
 
 STXT = "Bot started successfully ✨🥀\n"
-STXT += "For queries and questions : @axpsupport\n"
+STXT += "For queries and questions : @ShutupKeshav\n"
 STXT += "Join our group @animechattinggrp ✨☁️"
 
 yashu.start()
