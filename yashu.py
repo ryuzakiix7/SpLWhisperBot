@@ -34,6 +34,7 @@ async def start(_, m):
                     ]
 
 )
+                       )
 
 HLP = "**Whisper Bot Help**\n\n» `@{} [USERNAME] [WHISPER]`\n\nEx : `@{} @weedsmoker_sanji Hello !`"
 
