@@ -9,7 +9,7 @@ yashu = Client("WHISPER-BOT", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TO
 
 ALPHA = {}
 
-TXT = "Hello {} ! I'm {}, I can help you to send whispers in various modes !\n\nHit /help to know more !"
+TXT = "Hello {} ! I'm {}, I can help you to send whispers in various modes !\n\nHit /help to know more !\n\nPowered by : @macnetwork7"
 
 SWITCH_PM = IKM([[IKB("Send Whisper ☁️", switch_inline_query="")]])
 
