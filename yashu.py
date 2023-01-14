@@ -12,7 +12,7 @@ ALPHA = {}
 import keep_alive
 keep_alive.keep_alive()
 
-TXT = "Hello {} ! I'm {}, I can help you to send whispers in various modes !\n\nHit /help to know more !\n\nPowered by : @macnetwork7"
+TXT = "Hello {} ! I'm {}, I can help you to send whispers in various modes !\n\nHit /help to know more!"
 
 SWITCH_PM = IKM([[IKB("Send Whisper ☁️", switch_inline_query="")]])
 
