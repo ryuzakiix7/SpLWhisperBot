@@ -18,7 +18,19 @@ async def start(_, m):
     na = (await _.get_me()).first_name
     if not START_PIC:
         return await m.reply(TXT.format(m.from_user.first_name, na), reply_markup=SWITCH_PM)
-    await m.reply_photo(START_PIC, caption=TXT.format(m.from_user.first_name, na), reply_markup=SWITCH_PM)
+    await m.reply_photo(START_PIC, caption=TXT.format(m.from_user.first_name, na), reply_markup=InlineKeyboardMarkup(
+                    [
+                        [
+                            InlineKeyboardButton(
+                                text="NETWORK", url=f"https://t.me/macnetwork7"
+                            ),
+                            InlineKeyboardButton(
+                                text="SUPPORT", url=f"https://t.me/axpsupport"
+                            ),
+                        ]
+                    ]
+
+)
 
 HLP = "**Whisper Bot Help**\n\n» `@{} [USERNAME] [WHISPER]`\n\nEx : `@{} @weedsmoker_sanji Hello !`"
 
