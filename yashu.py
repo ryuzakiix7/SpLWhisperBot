@@ -27,6 +27,9 @@ async def start(_, m):
                                     [
                                         [
                                             IKB(
+                                                "Send Whisper ☁️", switch_inline_query=""
+                                            ),
+                                            IKB(
                                                 text="NETWORK", url=f"https://t.me/macnetwork7"
                                             ),
                                             IKB(
