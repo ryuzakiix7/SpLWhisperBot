@@ -23,13 +23,13 @@ async def start(_, m):
         return await m.reply(TXT.format(m.from_user.first_name, na), reply_markup=SWITCH_PM)
     await m.reply_photo(START_PIC, 
                         caption=TXT.format(m.from_user.first_name, na), 
-                        reply_markup=InlineKeyboardMarkup(
+                        reply_markup=IKM(
                                     [
                                         [
-                                            InlineKeyboardButton(
+                                            IKB(
                                                 text="NETWORK", url=f"https://t.me/macnetwork7"
                                             ),
-                                            InlineKeyboardButton(
+                                            IKB(
                                                 text="SUPPORT", url=f"https://t.me/axpsupport"
                                             )
                                         ]
